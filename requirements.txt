@@ -1,0 +1,6 @@
+apache-airflow-providers-apache-spark==4.0.0
+apache-airflow-providers-redis==3.1.0
+apache-airflow-providers-amazon==6.2.0
+requests
+pandas
+webdav4==0.9.8

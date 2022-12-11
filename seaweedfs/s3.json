@@ -1,0 +1,20 @@
+{
+  "identities": [
+    {
+      "name": "spark",
+      "credentials": [
+        {
+          "accessKey": "yGPULekGEmxyfLaD",
+          "secretKey": "1zQYqLBbpyahrtMSFCnW7ZeJ74GhmndO"
+        }
+      ],
+      "actions": [
+        "Admin",
+        "Read",
+        "List",
+        "Tagging",
+        "Write"
+      ]
+    }
+  ]
+}

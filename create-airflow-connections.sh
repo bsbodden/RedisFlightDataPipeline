@@ -1,0 +1,1 @@
+./airflow.sh connections import /opt/airflow/connections.json

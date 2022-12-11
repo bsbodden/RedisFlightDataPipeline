@@ -1,0 +1,21 @@
+{
+  "seaweedfs_local": {
+    "conn_type": "aws",
+    "description": "SeaweedFS S3 Endpoint",
+    "login": "yGPULekGEmxyfLaD",
+    "password": "1zQYqLBbpyahrtMSFCnW7ZeJ74GhmndO",
+    "port": 8333,
+    "schema": "",
+    "extra": "{\"aws_access_key_id\": \"yGPULekGEmxyfLaD\", \"aws_secret_access_key\": \"1zQYqLBbpyahrtMSFCnW7ZeJ74GhmndO\", \"endpoint_url\": \"http://127.0.0.1:8333\"}"
+  },
+  "spark_local": {
+    "conn_type": "spark",
+    "description": "",
+    "login": "",
+    "password": null,
+    "host": "spark://spark",
+    "port": 7077,
+    "schema": "",
+    "extra": "{\"queue\": \"root.default\", \"deploy_mode\": \"cluster\", \"spark_home\": \"/opt/bitnami/spark/\", \"spark-binary\": \"spark-submit\", \"namespace\": \"default\"}"
+  }
+}

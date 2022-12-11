@@ -1,0 +1,105 @@
+{
+  "type": "record",
+  "name": "StateVector",
+  "namespace": "org.opensky.avro.export",
+  "doc": "OpenSky State Vectors",
+  "fields": [
+    {
+      "name": "alert",
+      "type": "boolean"
+    },
+    {
+      "name": "baroaltitude",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "callsign",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "geoaltitude",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "heading",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "icao24",
+      "type": "string"
+    },
+    {
+      "name": "lastcontact",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "lastposupdate",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "lat",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "lon",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "onground",
+      "type": "boolean"
+    },
+    {
+      "name": "spi",
+      "type": "boolean"
+    },
+    {
+      "name": "squawk",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "time",
+      "type": "int"
+    },
+    {
+      "name": "velocity",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "vertrate",
+      "type": [
+        "null",
+        "double"
+      ]
+    }
+  ]
+}
